@@ -43,3 +43,17 @@ function positiveSum(arr) {
 positiveSum([1, 4, -3, 15, -4]);
 ```
 ---------------------------------------
+### **Education**
+
+#### **2019-2023**, BSU (Faculty of Radiophysics and Computer Technologies), Minsk
+#### **2008-2019**, Middle School №1, Polotsk
+---------------------------------------
+### **Certifications**
+
+#### 2022, "Database development on SQL, PL/SQL (Oracle)", Institute IBA
+---------------------------------------
+### **Languages**
+
+#### **Russian** - Native
+#### **Belarussian** - Native
+#### **English** - Intermediate

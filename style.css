@@ -22,7 +22,7 @@ header {
 
 header div h1 {
     font-family: 'Rubik One', sans-serif;
-    font-size: 40px;
+    font-size: 200%;
     text-transform: uppercase;
     background: linear-gradient(90deg, #7d41ff, #a841fd, #d83eff);
     -webkit-background-clip: text;

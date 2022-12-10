@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(150deg, #e5aefd, #a7a7ff);
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+header, .header-container {
+    height: 10vh;
+    position: relative;
+}
+
+header div h1 {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 5vh;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #320a87, #8e2ea7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    padding-top: 2.5vh;
+}
+
+.header-container, .main-container {
+    width: 70vw;
+    margin: auto;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+footer {
+    height: 20vh;
+}
+
+footer p {
+    text-align: center;
+    font-size: 4vh;
+    padding-top: 8vh;
+}

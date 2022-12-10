@@ -40,3 +40,9 @@ main {
 footer {
     height: 20vh;
 }
+
+footer p {
+    text-align: center;
+    font-size: 4vh;
+    padding-top: 8vh;
+}

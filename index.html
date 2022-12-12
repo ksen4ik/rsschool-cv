@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous">
+    </script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous">
+    </script>
+
+    <title>My CV</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-pos">
+            <div class="container-fluid">
+                <div class="b-header__logo">
+                    <a href="index.html" class="navbar-brand p-0">
+                        <img
+                        src="MyCV.png"
+                        class="b-header__logo-img"
+                        alt="My CV"
+                        width="150">
+                    </a>
+                </div>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-content" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a class="nav-link" href="#scrollspyHeading1">Contacts</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#scrollspyHeading2">Summary</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#scrollspyHeading3">Skills</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#scrollspyHeading4">Code Example</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#scrollspyHeading5">Education</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#scrollspyHeading6">Certifications</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#scrollspyHeading7">Languages</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#scrollspyHeading8">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+                <div class="container-title">
+                    <div class="container-title-text">
+                        <h1 class="title">Kseniya Kotova</h1>
+                        <h2 class="title-extra">Front-end Developer</h2>
+                    </div>
+                    <div class="container-title-image">
+                        <img class="img-content" src="my_photo.jpg" alt="My photo">
+                    </div>
+                </div>
+                <div class="container-info box-shadow">
+                    <h2 class="gen-title" id="scrollspyHeading1">Contacts</h2>
+                    <p class="info">Location: Minsk, Belarus <br>
+                                    Phone: +375 (29) 815-01-58 <br>
+                                    E-mail: 8150158.kk@gmail.com <br>
+                                    GitHub: <a href="https://github.com/ksen4ik">ksen4ik</a> <br>
+                                    Discord: <a href="https://discordapp.com/users/611651902278598874/">ksen4ik#7676</a>
+                    </p>
+                </div>
+                <div class="container-info box-shadow">
+                    <h2 class="gen-title" id="scrollspyHeading2">Summary</h2>
+                    <p class="info">I am a novice specialist in Frontend development. I am also interested in database development.
+                    I want to work on interesting projects where I can develop myself and benefit the company.</p>
+                </div>
+                <div class="container-info box-shadow">
+                    <h2 class="gen-title" id="scrollspyHeading3">Skills</h2>
+                    <ul class="info">
+                        <li>Knowledge of document markup languages (websites): HTML, CSS, Javascript</li>
+                        <li>Good knowledge of SQL, PL/SQL (Oracle)</li>
+                        <li>Knowledge of NodeJS (Express)</li>
+                        <li>Basic programming skills in Java, C++</li>
+                        <li>Programming a microprocessor in C</li>
+                        <li>Digital image processing in Python</li>
+                        <li>Work experience in MATLAB</li>
+                        <li>Ability to work with a large amount of information</li>
+                        <li>Ability to write structured and understandable code</li>
+                    </ul>
+                </div>
+                <div class="container-info box-shadow">
+                    <h2 class="gen-title" id="scrollspyHeading4">Code Example</h2>
+                    <p class="info">You get an array of numbers, return the sum of all of the positives ones. Note: if there is nothing to sum, the sum is default to 0.</p><br>
+                    <div class="code-container">
+                        <code>
+                            function positiveSum(arr) { <br>
+                            &nbsp; let sum = 0; <br>
+                            <br>
+                            &nbsp; for (let i = 0; i &lt; arr.length; i++) { <br>
+                            &nbsp; &nbsp; if (arr[i] >= 0) { <br>
+                            &nbsp; &nbsp; &nbsp; sum += arr[i]; <br>
+                            &nbsp; &nbsp; } else if (arr[i] &lt; 0 || arr[i] == '') { <br>
+                            &nbsp; &nbsp; &nbsp; arr[i] = 0; <br>
+                            &nbsp; &nbsp; } <br>
+                            &nbsp; } <br>
+                            &nbsp; return sum; <br>
+                            } <br>
+                            <br>
+                            positiveSum([1, 4, -3, 15, -4]);
+                        </code>
+                    </div>
+                </div>
+                <div class="container-info box-shadow">
+                    <h2 class="gen-title" id="scrollspyHeading5">Education</h2>
+                    <h3 class="extra-title-education">(Incomplete higher)</h3>
+                    <p class="info">
+                        2019-2023, BSU (Faculty of Radiophysics and Computer Technologies), Minsk <br>
+                        2008-2019, Middle School №1, Polotsk</p>
+                </div>
+                <div class="container-info box-shadow">
+                    <h2 class="gen-title" id="scrollspyHeading6">Certifications</h2>
+                    <p class="info">
+                        "Database development on SQL, PL/SQL (Oracle)"<br> Institute IBA <br> 2022
+                    </p>
+                </div>
+                <div class="container-info box-shadow">
+                    <h2 class="gen-title" id="scrollspyHeading7">Languages</h2>
+                    <ul class="info">
+                        <li>Russian - Native</li>
+                        <li>Belarussian - Native</li>
+                        <li>English - Intermediate</li>
+                    </ul>
+                </div>
+                <div class="container-info box-shadow">
+                    <h2 class="gen-title" id="scrollspyHeading8">Projects</h2>
+                    <h3 class="extra-title-education">Here you can look at my test project</h3>
+                    <a href="https://ksen4ik.github.io/test-project-shop/" target="_blank">
+                        <img src="styleroom.jpg" alt="logo_styleroom" class="logo-style-room">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-icons">
+            <h3>You can choose more preferable way to contact me</h3>
+            <div class="container-logo">
+                <a href="https://instagram.com/ksen4ik.k" target="_blank">
+                    <img src="instagram.png" alt="logo_instagram" class="logo">
+                </a>
+                <a href="https://t.me/ksen4ik_k" target="_blank">
+                    <img src="telegram.png" alt="logo_telegram" class="logo">
+                </a>
+                <a href="https://vk.com/kksen4ikk" target="_blank">
+                    <img src="vk.png" alt="logo_vk" class="logo">
+                </a>
+                <a href="https://discordapp.com/users/611651902278598874/" target="_blank">
+                    <img src="discord.png" alt="logo_discord" class="logo">
+                </a>
+            </div>
+        </div>
+        <p class="info">2022 © Created by <a href="https://github.com/ksen4ik">ksen4ik</a><br><br>
+            <a href="https://app.rs.school/" target="_blank">
+                <img src="rs_school.jpg" alt="logo_rsschool" class="logo">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

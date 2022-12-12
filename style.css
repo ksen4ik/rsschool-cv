@@ -164,6 +164,12 @@ footer {
     max-width: 35%
 }
 
+.logo-style-room {
+    max-width: 10%;
+    margin: 0px auto 5px;
+    display: block;
+}
+
 @media screen and (max-width: 1300px) {
     .main-container {
         width: 70vw;
@@ -175,6 +181,10 @@ footer {
 
     .title-extra {
         font-size: 4vh;
+    }
+
+    .logo-style-room {
+        max-width: 15%;
     }
 }
 
@@ -239,6 +249,10 @@ footer {
     .extra-title-education {
         font-size: 4vh;
     }
+
+    .logo-style-room {
+        max-width: 20%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -283,6 +297,10 @@ footer {
 
     .extra-title-education {
         font-size: 3vh;
+    }
+
+    .logo-style-room {
+        max-width: 30%;
     }
 }
 
@@ -332,5 +350,9 @@ footer {
 
     .extra-title-education {
         font-size: 3vh;
+    }
+
+    .logo-style-room {
+        max-width: 30%;
     }
 }

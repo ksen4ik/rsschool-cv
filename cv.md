@@ -45,3 +45,29 @@ positiveSum([1, 4, -3, 15, -4]);
 ```
 
 ---------------------------------------
+## **Work Experience**
+
+* ### **September, 2023 - Present**
+  #### Web Developer
+  #### "ITFLY" LLC, Minsk
+
+* ### **April, 2023 - September, 2023**
+  #### Web Developer
+  #### "BYPRO" LLC, Minsk
+
+---------------------------------------
+## **Education**
+
+* ### **2019-2023**
+  #### BSU (Faculty of Radiophysics and Computer Technologies), Minsk
+
+* ### **2008-2019**
+  #### Middle School №1, Polotsk
+
+---------------------------------------
+## **Certifications**
+
+### **November, 2022**
+#### "Database development on SQL, PL/SQL (Oracle)", Institute IBA
+
+---------------------------------------

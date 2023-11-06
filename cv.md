@@ -71,3 +71,7 @@ positiveSum([1, 4, -3, 15, -4]);
 #### "Database development on SQL, PL/SQL (Oracle)", Institute IBA
 
 ---------------------------------------
+## **Languages**
+
+#### **Russian** - Native
+#### **English** - Intermediate
